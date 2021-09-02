@@ -18,7 +18,7 @@ struct Question {
         Answer(text: "Переодически голодаю, во всем знаю меру", type: .justice),
         ]),
         
-        Question(text: "Что вы любите делать?", type: .multiply, answers: [
+        Question(text: "Что вы любите делать?", type: .multiple, answers: [
             Answer(text: "Рисковать", type: .excitement),
             Answer(text: "Настаивать на своем", type: .war),
             Answer(text: "Наслаждаться", type: .love),

@@ -244,6 +244,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="multipleStackView" destination="JnA-ew-DZg" id="cEi-pg-s5G"/>
+                        <outlet property="rangedStackView" destination="fwr-oh-nce" id="oLu-WK-SsT"/>
+                        <outlet property="singleStackView" destination="xja-Js-skp" id="4Th-7n-afL"/>
                         <segue destination="Bf3-ig-oPY" kind="show" id="OWF-Xs-Xk4"/>
                     </connections>
                 </viewController>
